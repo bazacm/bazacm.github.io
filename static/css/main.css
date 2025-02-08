@@ -16,7 +16,7 @@ table {
     width: auto !important;
     overflow-x: auto;
     display: inline-block;
-    border-radius: .5rem;
+    border-radius: 1rem;
     border: 1px solid var(--bs-table-border-color);
 }
 
@@ -25,7 +25,7 @@ a {
 }
 a.btn {
     font-weight: 700;
-    letter-spacing: 0.03rem;
+    letter-spacing: 0.01rem;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -36,4 +36,8 @@ h1,h2,h3,h4,h5,h6 {
 
 p {
     margin-bottom: 1.5rem;
+}
+
+.card-form {
+    transition: all 5s;
 }
